@@ -1,0 +1,134 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/*.poppins-regular {
+   
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+ 
+    font-weight: 700;
+    font-style: normal;
+  }
+*/
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo__img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.logo__text {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+/*novedades*/
+.content-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-main {
+  flex: 1 1 70%;
+  gap: 1rem;
+  min-width: 500px;
+
+}
+
+.content-aside {
+  flex: 1 1 30%;
+  gap: 1rem;
+  min-width: 15ch;
+}
+
+/*big card*/
+
+.big_card {
+  width: 50px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.big_card__container {
+  padding: 0;
+}
+
+.big_card__img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.big_card__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+
+}
+
+.big_card__footer__img {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 15px;
+
+}
+
+.big_card__footer__img {
+  margin-right: 15px;
+}
+
+/*aside*/
+.novedades_aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+}
+
+.logo__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 400px;
+  align-items: end;
+}
