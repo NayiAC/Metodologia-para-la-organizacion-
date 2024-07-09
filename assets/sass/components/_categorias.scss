@@ -1,0 +1,50 @@
+.categoria {
+  border-radius: $border-rounded;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoria:not(:first-of-type) {
+  margin-top: 1rem; //revisar pa q sirve
+}
+
+.categoria__img {
+  height: 100%;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+
+.categoria__text {
+  font-size: 2rem;
+  margin-right: 1rem;
+  text-align: right;
+  color: white;
+  font-weight: 700;
+}
+
+.categoria--html {
+  background-color: $red;
+}
+
+.categoria--js {
+  background-color: $yellow;
+}
+
+.categoria--css {
+  background-color: $light-blue;
+}
+
+.categoria--react {
+  background-color: $grey;
+}
+
+.categoria--vue {
+  background-color: $green;
+}
+
+.categoria--bootstrap {
+  background-color: $purple;
+}
