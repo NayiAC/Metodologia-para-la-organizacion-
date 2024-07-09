@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+ 
+// 1.- Abstracts
+@import 
+  'abstract/variables',
+  'abstract/mixins';
+
+// 2.- Vendors (Bootstrap)
+
+
+// 3.- Base
+@import 
+  'base/reset',
+  'base/typography';
+
+// 4.- layout
+@import 
+  'layout/header',
+  'layout/footer',
+  'layout/container2027';
+
+// 5.- components
+@import
+'components/post',
+'components/logo',
+'components/categorias',
+'components/users';
+
+
+// 6.- pages
+
+
+// 7.- themes
+@import 'theme/theme';
+
+
+// 8.- shame
+@import 'shame/shame';
